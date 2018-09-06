@@ -121,12 +121,13 @@ h3,
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+		opacity: 0;
 }
 .line2 {
 		margin-bottom: 20px;
 }
 .fade-in {
-    -webkit-animation: fadein 4s linear forwards;
+    -webkit-animation: fadein 4s linear 3s forwards;
 }
 @-webkit-keyframes fadein {
   0%,100% { opacity: 0; }
@@ -137,7 +138,7 @@ div.slide-up {
   overflow:hidden;
 }
 div.slide-up p {
-  animation: 5s slide-up;
+  animation: 8s slide-up 3s;
   margin-top:0%;
 }
 @keyframes slide-up {
