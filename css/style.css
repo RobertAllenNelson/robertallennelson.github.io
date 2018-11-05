@@ -323,11 +323,14 @@ footer {
 /* =================================
   Media Queries
 ==================================== */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
 	.flex-container > div {
 	  width: 90%;
 	  margin: 40px 10px 40px 10px;
 	  text-align: justify;}
+	}
+/*Menu*/
+	@media only screen and (max-width: 400px) {
 	#menuToggle {
 				display: inline-block;
 		}
