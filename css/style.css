@@ -329,7 +329,7 @@ footer {
 	  margin: 40px 10px 40px 10px;
 	  text-align: justify;}
 	}
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 510px) {
 	#menuToggle {
 				display: inline-block;
 		}
